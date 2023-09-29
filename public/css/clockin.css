@@ -1,0 +1,106 @@
+
+body {
+    font-family: system-ui;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #081F35;
+    padding: 20px 0px;
+}
+.title p {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 80px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: 460;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+section {
+    display: flex;
+}
+
+.form-group1 {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.location {
+    padding: 6px 20px 10px 10px;
+}
+.note {
+    padding: 35px 20px 10px 10px;
+}
+
+.form-group2 {
+    display: flex;
+}
+
+select {
+    border-radius: 0px;
+}
+select:focus {
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+#location {
+    font-size: 20px;
+    padding: 10px 35px 10px 8px;
+    border-radius: 0px;
+    border: 2px solid #143166;
+    margin: 2px 100px 20px 2px;
+}
+
+
+input:focus {
+    outline: none;
+    border-radius: 0;
+}
+.input-group input {
+    font-size: 20px;
+    padding: 10px 50px 10px 10px;
+    border-radius: 0px;
+    border: 2px solid #143166;
+    margin: 2px 100px 20px 2px;
+}
+#button {
+    text-align: center;
+    display: inline-block;
+}
+#button {
+    border: 1px solid #15548E;
+    margin: 20px;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #15548E;
+    border-radius: 0px;
+}
+
+.memo {
+    padding: 20px 0px 50px 0px;
+    color: #285ec2;
+}
+
+#home-move {
+    text-decoration: none;
+    color: #143166;
+}
+

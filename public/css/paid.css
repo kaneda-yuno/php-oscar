@@ -1,0 +1,105 @@
+
+body {
+    font-family: system-ui;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #081F35;
+    padding: 20px 0;
+}
+
+.title p {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.form-group1 p {
+    padding: 0 0 15px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.form-group1 {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.code, .password, .name {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+select:focus {
+    outline: none;
+    border-radius: 0;
+}
+select {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0;
+    border: 2px solid #143166;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-radius: 0;
+}
+input {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0;
+    border: 2px solid #143166;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid #15548E;
+    margin: 20px;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #15548E;
+    border-radius: 0;
+}
+
+#home-move {
+    text-decoration: none;
+    color: #143166;
+    padding: 10px 0;
+}
+
+
+

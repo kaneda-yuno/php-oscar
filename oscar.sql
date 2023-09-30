@@ -154,8 +154,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `code`, `password`, `name`, `authority`) VALUES
 (1, 'os001', 'oscar001', '金田悠乃', 0),
-(2, 'os002', 'oscar002', '田中太郎', 1),
-(3, 'os003', '$2y$10$aB7rEHljJ4JuQ12Gyj1MHexbg2D.rsQr/Iy92inoXV.Ytxw3IqdtC', '佐藤花子', 1);
+(2, 'os002', 'oscar002', '田中太郎', 1);
 
 --
 -- ダンプしたテーブルのインデックス

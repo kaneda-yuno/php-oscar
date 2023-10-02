@@ -286,6 +286,10 @@ class OscarController extends Controller {
         $attendances = Attendance::all();
         return view('displays.attendance', compact('attendances'));
     }
+        public function AttendanceList() {
+        $attendances = Attendance::all();
+        return view('displays.attendance_general', compact('attendances'));
+    }
     
     
 

@@ -65,17 +65,7 @@
 
 <script>
     function redirectToHome() {
-        // ページ遷移元の URL を取得
-        const referrer = document.referrer;
-
-        // ページ遷移元の URL が home_genera.blade.php からの場合
-        if (referrer.includes('home_genera.blade.php')) {
-            // home_genera.blade.php に戻る
-            window.location.href = '/home_genera';
-        } else {
-            // それ以外の場合は home.blade.php に戻る
-            window.location.href = '/home';
-        }
+        window.location.href = '/home';
     }
 </script>
 

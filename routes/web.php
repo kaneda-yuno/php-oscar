@@ -72,6 +72,9 @@ Route::get('/user_edit', function () {
 
 /*勤怠状況一覧*/
 Route::get('/attendance', [OscarController::class, 'showAttendanceList']);
+Route::post('/attendance', [OscarController::class, 'extractAttendance'])->name('extract.attendance');
+
+Route::get('/attendance_general', [OscarController::class, 'AttendanceList']);
 
 
 

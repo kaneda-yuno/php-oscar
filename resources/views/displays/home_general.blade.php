@@ -40,7 +40,7 @@
                     <a href="clockout" id="clockout_button">退勤報告</a>
                 </div>
 
-                <a href="/attendance" id="situation_move">勤怠状況一覧</a>
+                <a href="/attendance_general" id="situation_move">勤怠状況一覧</a>
 
             </div>
 
